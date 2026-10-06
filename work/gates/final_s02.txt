@@ -1,0 +1,18 @@
+## motion parity, scene 2 (frames 294-607); per-second mean |diff| original vs render
+sec  frames      orig   render  ratio  status
+  0   294- 318    9.23    7.96   0.86  ok
+  1   318- 342    9.14    8.05   0.88  ok
+  2   342- 366    8.70    8.27   0.95  ok
+  3   366- 390    8.32    8.40   1.01  ok
+  4   390- 414    8.00    8.14   1.02  ok
+  5   414- 438    7.67    8.07   1.05  ok
+  6   438- 462    7.67    7.84   1.02  ok
+  7   462- 486    7.59    7.81   1.03  ok
+  8   486- 510    7.52    7.63   1.01  ok
+  9   510- 534    7.51    7.49   1.00  ok
+ 10   534- 558    7.47    7.48   1.00  ok
+ 11   558- 582    7.61    7.23   0.95  ok
+ 12   582- 606    7.78    7.00   0.90  ok
+motion gate scene 2: PASS
+## thread gate v2 (trace), scene 2: drawings checked 157, owners traced {'A': 157}
+thread gate scene 2: PASS (0 issues)

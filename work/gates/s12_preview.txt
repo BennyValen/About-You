@@ -1,0 +1,64 @@
+## motion parity, scene 12 (frames 3648-4003); per-second mean |diff| original vs render
+sec  frames      orig   render  ratio  status
+  0  3648-3672    2.47    2.85   1.15  ok
+  1  3672-3696    2.43    2.76   1.14  ok
+  2  3696-3720    2.27    2.83   1.24  ok
+  3  3720-3744    1.86    2.60   1.40  FAIL
+  4  3744-3768    1.74    2.63   1.51  FAIL
+  5  3768-3792    1.98    2.88   1.45  FAIL
+  6  3792-3816    2.42    3.15   1.30  ok
+  7  3816-3840    3.27    3.32   1.01  ok
+  8  3840-3864    4.02    3.60   0.90  ok
+  9  3864-3888    4.36    3.83   0.88  ok
+ 10  3888-3912    4.38    3.93   0.90  ok
+ 11  3912-3936    4.40    3.82   0.87  ok
+ 12  3936-3960    2.83    3.58   1.26  ok
+ 13  3960-3984    1.66    0.73   0.44  FAIL
+ 14  3984-4003    1.43    0.59   0.41  FAIL
+STALL near frames 3972-3984
+STALL near frames 3984-3996
+motion gate scene 12: FAIL
+## thread gate, scene 12: frames checked 178
+edge-reaching components per frame (count: frames): {0: 3, 1: 74, 2: 50, 3: 22, 4: 12, 5: 7, 6: 6, 7: 3, 8: 1}
+  f3654: 2 edge-reaching thread components, expected 1 ([(np.False_, np.False_, ['A'], 620), (np.False_, np.False_, [], 15), (np.False_, np.False_, [], 15), (np.False_, np.False_, [], 50), (np.False_, np.False_, [], 15), (np.True_, np.False_, [], 55), (np.True_, np.False_, [], 15)])
+  f3674: 0 edge-reaching thread components, expected 1 ([(np.False_, np.False_, ['A'], 720)])
+  f3684: 2 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 757), (np.True_, np.False_, [], 15)])
+  f3704: 0 edge-reaching thread components, expected 1 ([(np.False_, np.False_, ['A'], 762), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25)])
+  f3706: 2 edge-reaching thread components, expected 1 ([(np.False_, np.False_, ['A'], 460), (np.True_, np.False_, [], 316), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 25)])
+  f3708: 4 edge-reaching thread components, expected 1 ([(np.False_, np.False_, ['A'], 755), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 25), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15)])
+  f3710: 2 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 780), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 15)])
+  f3712: 6 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 780), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 25), (np.True_, np.False_, [], 25), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15)])
+  f3714: 7 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 780), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 43), (np.True_, np.False_, [], 30), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15)])
+  f3716: 3 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 775), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 38), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15)])
+  f3718: 4 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 775), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15)])
+  f3720: 2 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 773), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 15)])
+  f3722: 2 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 773), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 15)])
+  f3724: 5 edge-reaching thread components, expected 1 ([(np.False_, np.False_, ['A'], 545), (np.False_, np.False_, [], 50), (np.True_, np.False_, [], 174), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 25), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15)])
+  f3726: 5 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 770), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 25), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 20), (np.True_, np.False_, [], 15)])
+  f3728: 2 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 786), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 15)])
+  f3730: 4 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 770), (np.True_, np.False_, [], 36), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15)])
+  f3732: 2 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 770), (np.False_, np.False_, [], 44), (np.True_, np.False_, [], 15)])
+  f3734: 4 edge-reaching thread components, expected 1 ([(np.False_, np.False_, ['A'], 700), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 20), (np.True_, np.False_, [], 15)])
+  f3736: 5 edge-reaching thread components, expected 1 ([(np.True_, np.False_, ['A'], 770), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15), (np.True_, np.False_, [], 15)])
+  f3756: 2 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.True_, np.False_, ['A'], 772)])
+  f3758: 2 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.True_, np.False_, ['A'], 771)])
+  f3762: 3 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.True_, np.False_, ['A'], 770)])
+  f3764: 2 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.True_, np.False_, ['A'], 770)])
+  f3768: 2 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.True_, np.False_, ['A'], 770)])
+  f3774: 2 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 18), (np.False_, np.False_, [], 50), (np.False_, np.False_, ['A'], 495), (np.True_, np.False_, [], 265)])
+  f3790: 2 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.True_, np.False_, ['A'], 773)])
+  f3816: 2 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, ['A'], 770)])
+  f3818: 3 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.True_, [], 34), (np.True_, np.False_, ['A'], 774)])
+  f3820: 3 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.True_, [], 20), (np.False_, np.False_, [], 34), (np.True_, np.False_, ['A'], 768)])
+  f3822: 4 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 83), (np.False_, np.True_, [], 97), (np.False_, np.True_, [], 15), (np.False_, np.False_, [], 48), (np.True_, np.False_, ['A'], 774)])
+  f3824: 6 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 169), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.False_, [], 47), (np.True_, np.False_, ['A'], 773)])
+  f3826: 7 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.False_, [], 70), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 47), (np.True_, np.False_, ['A'], 770)])
+  f3828: 3 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.False_, [], 67), (np.False_, np.False_, [], 44), (np.True_, np.False_, ['A'], 774)])
+  f3830: 6 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 35), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 50), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 69), (np.True_, np.False_, ['A'], 774)])
+  f3832: 3 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 35), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, ['A'], 770)])
+  f3834: 3 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 35), (np.True_, np.False_, ['A'], 770)])
+  f3836: 3 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.True_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.False_, np.False_, [], 25), (np.True_, np.False_, ['A'], 770)])
+  f3838: 2 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 9), (np.False_, np.False_, [], 44), (np.True_, np.False_, ['A'], 772)])
+  f3840: 5 edge-reaching thread components, expected 1 ([(np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.True_, [], 15), (np.False_, np.False_, [], 15), (np.False_, np.False_, [], 50), (np.True_, np.False_, ['A'], 774)])
+  ... 47 more
+thread gate scene 12: FAIL (87 issues)

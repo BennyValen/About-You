@@ -1,0 +1,6 @@
+scene 7 window 2200-2247: orig 2.26 render 1.02 ratio 0.45
+scene 8 window 2540-2587: orig 0.36 render 2.37 ratio 6.56
+scene 9 window 2750-2797: orig 3.78 render 3.43 ratio 0.91
+scene 10 window 3100-3147: orig 4.84 render 4.58 ratio 0.95
+scene 11 window 3450-3497: orig 3.27 render 3.52 ratio 1.08
+scene 4 window 1100-1147: orig 2.81 render 4.41 ratio 1.57

@@ -1,0 +1,3 @@
+[  30.00 -   59.88] No place, is somewhere I go When I meet him and make him feel  (p_nospeech=0.32)
+[  89.88 -  101.88] Do you think I have forgotten about you?  (p_nospeech=0.39)
+[ 149.88 -  166.88] Thanks for watching!  (p_nospeech=0.80)

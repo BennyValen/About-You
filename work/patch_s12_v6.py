@@ -1,0 +1,10 @@
+p = 'blender/scenes/s12.py'
+s = open(p).read()
+s = s.replace('''    c1 = band(r1, 0.028, loc_y - 100, 0.35)''', '''    c1 = band(r1, 0.016, loc_y - 100, 0.4)''')
+s = s.replace('''    c2 = _math(nt, "MULTIPLY", band(r2, 0.026, loc_y - 250, 0.35), near1, (-700, loc_y - 250))''', '''    c2 = _math(nt, "MULTIPLY", band(r2, 0.014, loc_y - 250, 0.4), near1, (-700, loc_y - 250))''')
+s = s.replace('''    c3 = _math(nt, "MULTIPLY", band(r3, 0.026, loc_y - 400, 0.35), near2, (-700, loc_y - 400))''', '''    c3 = _math(nt, "MULTIPLY", band(r3, 0.015, loc_y - 400, 0.4), near2, (-700, loc_y - 400))''')
+s = s.replace('''        c = _mixrgb(nt, "MIX", cr, c, core.hexc("#7f6c9b"), (-600, 200))''', '''        c = _mixrgb(nt, "MIX", cr, c, core.hexc("#8a76a4"), (-600, 200))''')
+s = s.replace('''        h = _math(nt, "SUBTRACT", rip, _math(nt, "MULTIPLY", cr, 0.35, (-1200, -900)), (-800, -600))''', '''        h = _math(nt, "SUBTRACT", rip, _math(nt, "MULTIPLY", cr, 0.2, (-1200, -900)), (-800, -600))''')
+s = s.replace('''        c = _mixrgb(nt, "MIX", 0.55, c1, c2, (-700, 150))''', '''        c = _mixrgb(nt, "MIX", 0.46, c1, c2, (-700, 150))''')
+open(p, 'w').write(s)
+print("ok")

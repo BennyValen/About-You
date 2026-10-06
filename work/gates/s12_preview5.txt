@@ -1,0 +1,21 @@
+## motion parity, scene 12 (frames 3648-4003); per-second mean |diff| original vs render
+sec  frames      orig   render  ratio  status
+  0  3648-3672    2.47    3.03   1.23  ok
+  1  3672-3696    2.43    2.94   1.21  ok
+  2  3696-3720    2.27    2.82   1.24  ok
+  3  3720-3744    1.86    2.14   1.15  ok
+  4  3744-3768    1.74    2.03   1.16  ok
+  5  3768-3792    1.98    2.55   1.29  ok
+  6  3792-3816    2.42    3.00   1.24  ok
+  7  3816-3840    3.27    3.54   1.08  ok
+  8  3840-3864    4.02    4.40   1.10  ok
+  9  3864-3888    4.36    4.65   1.07  ok
+ 10  3888-3912    4.38    4.56   1.04  ok
+ 11  3912-3936    4.40    4.83   1.10  ok
+ 12  3936-3960    2.83    2.72   0.96  ok
+ 13  3960-3984    1.66    1.61   0.96  ok
+ 14  3984-4003    1.43    1.44   1.00  ok
+motion gate scene 12: PASS
+## thread gate, scene 12: frames checked 178
+edge-reaching components per frame (count: frames): {1: 142, 2: 36}
+thread gate scene 12: PASS (0 issues)

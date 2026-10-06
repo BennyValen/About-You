@@ -1,0 +1,21 @@
+# Lyrics, transcribed locally (read-only analysis; never muxed).
+# Pipeline: demucs htdemucs vocal separation -> faster-whisper "medium" (multilingual, language detected: en p=0.44),
+# VAD on, beam 5. Vocals are soft and breathy; Whisper's confidence is low, so treat words as approximate.
+# The English-only medium.en pass on the same stem agreed on lines 1-2 and "Do you think I have forgotten about you?".
+# Vocal activity (energy on the separated stem): ~10.5-12, 15.8-17.8, 24-26, 44-46, 49-51, 53.5-62, 64-81.5, 84-106, 116-117, 136-138, 139-140, 144-146, 147-148.5, 152.5-153.8, 161.8-163 s.
+[ 49.65 -  55.04] No place
+[ 55.04 -  57.04] Somewhere I go
+[ 57.04 -  59.04] When I need to remember
+[ 59.04 -  61.04] Your face
+[ 61.04 -  64.96] We get married
+[ 64.96 -  69.58] In our house
+[ 69.58 -  75.97] They'll do (unclear)
+[ 75.97 -  77.97] When we try to recall
+[ 77.97 -  79.97] How we met
+[ 79.97 -  85.94] Do you think
+[ 85.94 -  87.94] I have forgotten
+[ 87.94 -  89.94] Do you think
+[ 89.94 -  91.94] I have forgotten
+[ 91.94 -  93.94] Do you think
+[ 93.94 - 101.97] (I) have forgotten about you
+# After ~102 s the vocal is wordless humming/ooh (Whisper hallucinates "Thanks for watching!" on the silent tail; discarded).

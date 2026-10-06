@@ -1,0 +1,210 @@
+[
+ {
+  "id": "aerial_sand",
+  "name": "Aerial Sand",
+  "authors": "Rob Tuytel",
+  "use": "scene 5/12 dune sand grain",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_sand/aerial_sand_diff_1k.jpg",
+    "bytes": 490916
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_sand/aerial_sand_nor_gl_1k.jpg",
+    "bytes": 665488
+   },
+   {
+    "map": "Displacement",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_sand/aerial_sand_disp_1k.jpg",
+    "bytes": 209123
+   }
+  ]
+ },
+ {
+  "id": "coast_sand_01",
+  "name": "Coast Sand 01",
+  "authors": "Rob Tuytel",
+  "use": "scene 6 lagoon sand bed, scene 12 flats",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/coast_sand_01/coast_sand_01_diff_1k.jpg",
+    "bytes": 960614
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/coast_sand_01/coast_sand_01_nor_gl_1k.jpg",
+    "bytes": 1146826
+   }
+  ]
+ },
+ {
+  "id": "aerial_rocks_02",
+  "name": "Aerial Rocks 02",
+  "authors": "Rob Tuytel",
+  "use": "scene 7 canyon rock",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_rocks_02/aerial_rocks_02_diff_1k.jpg",
+    "bytes": 785923
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_rocks_02/aerial_rocks_02_nor_gl_1k.jpg",
+    "bytes": 1177932
+   },
+   {
+    "map": "Displacement",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_rocks_02/aerial_rocks_02_disp_1k.jpg",
+    "bytes": 111007
+   }
+  ]
+ },
+ {
+  "id": "rocky_terrain_03",
+  "name": "Rocky Terrain 03",
+  "authors": "Amal Kumar",
+  "use": "scene 7 scree / talus",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rocky_terrain_03/rocky_terrain_03_diff_1k.jpg",
+    "bytes": 957745
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rocky_terrain_03/rocky_terrain_03_nor_gl_1k.jpg",
+    "bytes": 1229865
+   }
+  ]
+ },
+ {
+  "id": "snow_field_aerial",
+  "name": "Snow Field Aerial",
+  "authors": "Rob Tuytel",
+  "use": "scene 1/8 snow",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/snow_field_aerial/snow_field_aerial_col_1k.jpg",
+    "bytes": 754873
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/snow_field_aerial/snow_field_aerial_nor_gl_1k.jpg",
+    "bytes": 640692
+   }
+  ]
+ },
+ {
+  "id": "snow_02",
+  "name": "Snow 02",
+  "authors": "Rob Tuytel",
+  "use": "scene 4 frost, scene 8 powder",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/snow_02/snow_02_diff_1k.jpg",
+    "bytes": 325497
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/snow_02/snow_02_nor_gl_1k.jpg",
+    "bytes": 1081858
+   }
+  ]
+ },
+ {
+  "id": "pine_bark",
+  "name": "Pine Bark",
+  "authors": "Dimitrios Savva",
+  "use": "conifer trunks (scenes 1, 8), tree trunks (scene 9)",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/pine_bark/pine_bark_diff_1k.jpg",
+    "bytes": 837641
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/pine_bark/pine_bark_nor_gl_1k.jpg",
+    "bytes": 1178440
+   }
+  ]
+ },
+ {
+  "id": "aerial_grass_rock",
+  "name": "Aerial Grass Rock",
+  "authors": "Rob Tuytel",
+  "use": "scene 9 lawn / verge",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_grass_rock/aerial_grass_rock_diff_1k.jpg",
+    "bytes": 666655
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_grass_rock/aerial_grass_rock_nor_gl_1k.jpg",
+    "bytes": 904956
+   }
+  ]
+ },
+ {
+  "id": "forest_ground_04",
+  "name": "Forest Ground 04",
+  "authors": "Rob Tuytel, Rico Cilliers",
+  "use": "scene 10 soil rows, scene 9 path edges",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/forest_ground_04/forest_ground_04_diff_1k.jpg",
+    "bytes": 1113899
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/forest_ground_04/forest_ground_04_nor_gl_1k.jpg",
+    "bytes": 1326812
+   }
+  ]
+ },
+ {
+  "id": "gravel_road",
+  "name": "Gravel Road",
+  "authors": "Amal Kumar",
+  "use": "scene 9 path gravel, scene 2 ballast",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_road/gravel_road_diff_1k.jpg",
+    "bytes": 684038
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_road/gravel_road_nor_gl_1k.jpg",
+    "bytes": 983723
+   }
+  ]
+ },
+ {
+  "id": "brown_mud_02",
+  "name": "Brown Mud 02",
+  "authors": "Rob Tuytel",
+  "use": "scene 10 dirt road ruts",
+  "files": [
+   {
+    "map": "Diffuse",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_02/brown_mud_02_diff_1k.jpg",
+    "bytes": 527741
+   },
+   {
+    "map": "nor_gl",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_02/brown_mud_02_nor_gl_1k.jpg",
+    "bytes": 1397011
+   }
+  ]
+ }
+]

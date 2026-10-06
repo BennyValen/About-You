@@ -1,0 +1,32 @@
+## transcribe (language en p=0.64)
+[  49.65 -   55.04] No place
+[  55.04 -   57.04] Somewhere I go
+[  57.04 -   59.04] When I need to remember
+[  59.04 -   61.04] Your face
+[  61.04 -   64.96] We get married
+[  64.96 -   69.58] In our house
+[  69.58 -   75.97] They'll do
+[  75.97 -   77.97] When we try to recall
+[  77.97 -   79.97] How we met
+[  79.97 -   85.94] Do you think
+[  85.94 -   87.94] I have forgotten
+[  87.94 -   89.94] Do you think
+[  89.94 -   91.94] I have forgotten
+[  91.94 -   93.94] Do you think
+[  93.94 -  101.97] Don't think I have the concern about you
+## translate (language en p=0.64)
+[  49.65 -   55.04] No place
+[  55.04 -   57.04] Somewhere I go
+[  57.04 -   59.04] When I need to remember
+[  59.04 -   61.04] Your face
+[  61.04 -   64.96] We get married
+[  64.96 -   69.58] In our house
+[  69.58 -   75.97] They do
+[  75.97 -   77.97] While you try to recall
+[  77.97 -   79.97] How we met
+[  79.97 -   85.94] Do you think
+[  85.94 -   87.94] I have forgotten
+[  87.94 -   89.94] Do you think
+[  89.94 -   91.94] I have forgotten
+[  91.94 -   93.94] Do you think
+[  93.94 -  101.97] Don't think I have the concern about you

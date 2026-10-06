@@ -1,0 +1,64 @@
+## motion parity, scene 12 (frames 3648-4003); per-second mean |diff| original vs render
+sec  frames      orig   render  ratio  status
+  0  3648-3672    2.47    2.58   1.05  ok
+  1  3672-3696    2.43    2.40   0.99  ok
+  2  3696-3720    2.27    2.10   0.92  ok
+  3  3720-3744    1.86    1.48   0.80  ok
+  4  3744-3768    1.74    1.44   0.83  ok
+  5  3768-3792    1.98    1.84   0.93  ok
+  6  3792-3816    2.42    2.20   0.91  ok
+  7  3816-3840    3.27    2.58   0.79  ok
+  8  3840-3864    4.02    3.22   0.80  ok
+  9  3864-3888    4.36    3.51   0.80  ok
+ 10  3888-3912    4.38    3.44   0.79  ok
+ 11  3912-3936    4.40    3.51   0.80  ok
+ 12  3936-3960    2.83    3.85   1.36  FAIL
+ 13  3960-3984    1.66    0.74   0.44  FAIL
+ 14  3984-4003    1.43    0.59   0.41  FAIL
+STALL near frames 3972-3984
+STALL near frames 3984-3996
+motion gate scene 12: FAIL
+## thread gate, scene 12: frames checked 178
+edge-reaching components per frame (count: frames): {1: 141, 2: 37}
+  f3848: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1905)])
+  f3850: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1902)])
+  f3852: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1930)])
+  f3854: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1965)])
+  f3856: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1976)])
+  f3858: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2006)])
+  f3860: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1995)])
+  f3862: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2094)])
+  f3864: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1897)])
+  f3866: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2025)])
+  f3868: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2062)])
+  f3870: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2008)])
+  f3872: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2014)])
+  f3874: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2022)])
+  f3876: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1917)])
+  f3878: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2111)])
+  f3880: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2053)])
+  f3882: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1999)])
+  f3884: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2021)])
+  f3886: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2052)])
+  f3888: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2086)])
+  f3890: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2082)])
+  f3892: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2018)])
+  f3894: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2116)])
+  f3896: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2082)])
+  f3898: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2066)])
+  f3900: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1905)])
+  f3902: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2027)])
+  f3904: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2047)])
+  f3906: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2006)])
+  f3908: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2007)])
+  f3910: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1972)])
+  f3912: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1959)])
+  f3914: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2007)])
+  f3916: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1999)])
+  f3918: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 1955)])
+  f3920: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2045)])
+  f3922: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2005)])
+  f3924: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2048)])
+  f3926: 1 edge-reaching thread components, expected 2 ([(np.True_, np.False_, ['A'], 2105)])
+  ... 1 more
+thread gate scene 12: FAIL (41 issues)

@@ -1,0 +1,128 @@
+## Fix 4 - scene 11 first drawings
+bird headings (deg from straight up), first 24 drawings:
+  d00 f3316: +0.44 -0.08 -0.05 -0.01 +0.12 +0.15 -0.11 +0.18 +0.42 +0.07
+  d01 f3318: +0.15 +0.05 -0.16 -0.15 +0.14 +0.11 -0.23 +0.02 +0.33 -0.00
+  d02 f3320: -0.09 +0.16 -0.25 -0.26 +0.17 +0.08 -0.34 -0.12 +0.24 -0.07
+  d03 f3322: -0.27 +0.26 -0.32 -0.35 +0.19 +0.05 -0.42 -0.23 +0.18 -0.12
+  d04 f3324: -0.40 +0.33 -0.38 -0.41 +0.22 +0.02 -0.48 -0.30 +0.13 -0.17
+  d05 f3326: -0.45 +0.38 -0.41 -0.43 +0.24 +0.01 -0.52 -0.34 +0.10 -0.20
+  d06 f3328: -0.45 +0.40 -0.43 -0.43 +0.26 -0.01 -0.53 -0.34 +0.09 -0.22
+  d07 f3330: -0.40 +0.40 -0.43 -0.41 +0.28 -0.01 -0.53 -0.31 +0.10 -0.23
+  d08 f3332: -0.31 +0.38 -0.42 -0.36 +0.30 -0.02 -0.50 -0.26 +0.12 -0.23
+  d09 f3334: -0.19 +0.35 -0.40 -0.30 +0.31 -0.02 -0.46 -0.19 +0.15 -0.22
+  d10 f3336: -0.05 +0.30 -0.37 -0.23 +0.32 -0.02 -0.42 -0.11 +0.18 -0.21
+  d11 f3338: +0.09 +0.26 -0.34 -0.15 +0.33 -0.02 -0.37 -0.03 +0.21 -0.20
+  d12 f3340: +0.22 +0.21 -0.31 -0.08 +0.34 -0.03 -0.32 +0.06 +0.24 -0.19
+  d13 f3342: +0.34 +0.16 -0.28 -0.02 +0.34 -0.03 -0.28 +0.13 +0.27 -0.18
+  d14 f3344: +0.43 +0.11 -0.26 +0.04 +0.34 -0.04 -0.24 +0.19 +0.29 -0.17
+  d15 f3346: +0.50 +0.06 -0.25 +0.09 +0.33 -0.05 -0.21 +0.25 +0.29 -0.17
+  d16 f3348: +0.54 +0.03 -0.23 +0.13 +0.33 -0.07 -0.19 +0.28 +0.29 -0.18
+  d17 f3350: +0.56 -0.01 -0.23 +0.15 +0.32 -0.09 -0.17 +0.31 +0.29 -0.19
+  d18 f3352: +0.55 -0.04 -0.23 +0.17 +0.30 -0.11 -0.16 +0.33 +0.27 -0.20
+  d19 f3354: +0.53 -0.06 -0.24 +0.18 +0.29 -0.13 -0.16 +0.33 +0.25 -0.22
+  d20 f3356: +0.49 -0.08 -0.24 +0.19 +0.27 -0.15 -0.16 +0.33 +0.22 -0.24
+  d21 f3358: +0.44 -0.10 -0.25 +0.19 +0.26 -0.18 -0.16 +0.32 +0.19 -0.26
+  d22 f3360: +0.39 -0.11 -0.26 +0.18 +0.24 -0.20 -0.16 +0.30 +0.15 -0.28
+  d23 f3362: +0.34 -0.12 -0.27 +0.18 +0.23 -0.22 -0.17 +0.29 +0.12 -0.29
+max |heading| first 24 drawings: 0.56 deg (limit 6); RMS over the whole scene: 0.22 deg (limit 6)
+cloud scroll px/drawing (measured on the main cloud layer, rig camera) 0-1, 1-2, 2-3: [(np.float32(10.77), 10.74), (np.float32(10.85), 10.74), (np.float32(10.86), 10.74)]  (9.8 +- 10 %)
+**Fix 4 scene 11 start: PASS** - filmstrip work/gates/s11_start.jpg
+
+## Fix 3 - scene 10 walker
+hat centre: lateral deviation from the best-fit line max 0.16 px (limit 14); peak-to-peak after a degree-3 fit 1.47 px (limit 3); yaw RMS 0.00 deg (limit 2.5)
+max lateral offset from the body centre line: feet 11.49 px (limit 14), hands 17.43 px (limit 20)
+**Fix 3 scene 10 walker: PASS** - work/hero_motion_s10.csv, filmstrip work/gates/walker_s10.jpg
+
+## Fix 6 - scene 12 runner A
+body centre: max excursion per 48-frame window 15.92 px (limit 30); max yaw RMS 2.47 deg (limit 4); lateral oscillation at the step rate (after a 0.5 s moving average) p2p 1.34 px (limit 3)
+running part (3648-3926): cadence 3.67 steps/s median (range 3.00-3.67); step length median 60.0 px (range 46.6-60.0; stride rule clamp(v/3, 46, 60))
+ground speed from the foot plants: 140-220 px/s (scene pacing unchanged; v4 A: 141 -> 220 px/s)
+planted-foot slip: max 0.30 px per drawing over 39 stance steps (limit 1)
+per stride cycle (2 steps) while running: drawings [6, 7, 8], distinct poses = drawings in every cycle: True, flight phases per cycle [2]
+note: at the measured 220 px/s the 46-60 px stride rule needs 3.7 steps/s, so a stride cycle is 6.5 drawings there (8 drawings at the start speed of 141-157 px/s); every drawing in a cycle is a distinct pose
+B crop (220 px around B) v4 vs v5 mean abs diff: max 0.25, mean 0.13 (limit 1.0); B's thread log identical to v4: True
+**Fix 6 scene 12 runner: PASS** - work/hero_motion_s12.csv, filmstrip work/gates/runner_s12.jpg
+
+## Fix 5 - scene 12 birds
+3 s clip 3700-3770, per-bird wing span (px) series:
+  bird 0: 29 22 31 40 30 23 32 39 29 22 30 40 31 23 31 39 30 22 30 39 32 23 30 39 31 22 29 39 33 23 29 39 40 40 40 40   p2p 45 %
+  bird 1: 26 25 36 36 24 25 37 36 24 27 38 33 22 28 39 33 23 30 39 30 22 31 39 30 24 33 39 40 40 40 40 40 40 40 40 40   p2p 45 %
+  bird 2: 38 26 25 36 36 24 24 37 37 25 26 37 35 23 26 38 35 24 28 38 33 22 28 39 33 23 30 39 40 40 40 40 40 40 40 40   p2p 44 %
+  bird 3: 38 27 22 32 40 31 23 31 39 31 22 28 39 34 24 27 38 35 23 25 37 37 26 25 36 37 26 23 33 39 29 23 32 39 29 22   p2p 44 %
+  bird 4: 36 25 26 37 35 24 25 37 37 25 25 36 36 25 24 36 38 26 25 35 37 26 23 35 39 27 24 34 39 40 40 40 40 40 40 40   p2p 42 %
+  bird 5: 39 27 24 35 37 25 24 36 37 25 26 38 40 40 40 40 40 40 40 40 40 40 40 40 40 40 32 22 33 39 27 24 35 37 25 24   p2p 44 %
+span p2p per bird: min 42 % (limit 35); bird pairs whose span cross-correlation peaks at a lag >= 1 drawing: 13 of 15 (need >= 3)
+max heading change 12.00 deg/s (limit 12); min distance between birds 44.6 px (limit 28)
+**Fix 5 scene 12 birds: PASS** - filmstrip work/gates/birds_s12.jpg
+
+## Fix 2 - scene 6 manta and turtles
+manta flap period from the tracked tip rib angle: 2.25 s (target 2.2 s, 0.45 Hz)
+turtle front-flipper period from the tracked shoulder angle: 2.83 s (target 2.8 s)
+manta wingspan over a 4 s clip (1700-1794): 315-358 px, p2p 11.9 % (10-14 %)
+tail tip lateral offset from the spine line: max |32.5| px (need >= 8 at some frame)
+manta mask: 202 drawings; visible mask split (boat over the tail) in 9; not one piece with the occluder counted: 0; max area change between drawings 4.0 % (limit 6)
+overlaps: 0
+outside the creature regions, v4 vs v5 mean abs diff per sampled drawing: [0.27, 0.3, 0.23, 0.18, 0.22, 0.21, 0.2] (limit 1.0)
+**Fix 2 scene 6 swimming: PASS** - filmstrips work/gates/swim_manta.jpg, swim_turtle.jpg
+
+## Fix 1 - scene 3 lily pads
+pads hidden because they could not meet the overlap limit: 0
+pads 317, overlapping pairs 613, max depth ratio 0.220 (limit 0.22), pairs with the lower-index pad on top: 0
+draw order of all overlapping pairs identical in 20 sampled frames: True; min height of an upper pad above the pad it overlaps: 4.60 cm
+30 overlapping pairs: max change of the centre-to-centre vector over the scene 0.33 px (limit 1.5)
+PADS GATE: PASS
+outside the pads (water, channel, boat, thread), v4 vs v5 mean abs diff per sampled drawing: [0.54, 0.55, 0.55, 0.54, 0.53, 0.76] (limit 1.0)
+**Fix 1 scene 3 pads: PASS** - pad_overlap_report.csv; side by side in out/v5_changes.jpg
+
+## Regression
+scene  1 frames 0-293: decoded frames identical to v4: 294/294
+scene  2 frames 294-607: decoded frames identical to v4: 314/314
+scene  4 frames 954-1313: decoded frames identical to v4: 360/360
+scene  5 frames 1314-1673: decoded frames identical to v4: 360/360
+scene  7 frames 2078-2491: decoded frames identical to v4: 414/414
+scene  8 frames 2492-2645: decoded frames identical to v4: 154/154
+scene  9 frames 2646-2981: decoded frames identical to v4: 336/336
+**regression untouched scenes byte-identical: PASS**
+
+scene 10: before compositing (fresh paint everywhere) the diff outside the edits was [0.46, 0.37, 0.36, 0.36, 1.72, 0.37]; edit mask covers [16.6, 16.8, 16.4, 16.4, 16.8, 16.6] % of the frame
+scene 11: before compositing (fresh paint everywhere) the diff outside the edits was [1.6, 0.17, 0.15, 0.27, 0.15]; edit mask covers [30.9, 29.9, 30.2, 29.8, 29.9] % of the frame
+scene  3: mean abs diff vs v4 outside the edited elements per sampled drawing: [0.54, 0.55, 0.55, 0.54, 0.53, 0.76]
+scene  6: mean abs diff vs v4 outside the edited elements per sampled drawing: [0.27, 0.3, 0.23, 0.18, 0.22, 0.21, 0.2]
+scene 10: mean abs diff vs v4 outside the edited elements per sampled drawing: [0.11, 0.11, 0.11, 0.11, 0.11, 0.1]
+scene 11: mean abs diff vs v4 outside the edited elements per sampled drawing: [0.09, 0.09, 0.09, 0.09, 0.1]
+scene 12: mean abs diff vs v4 outside the edited elements per sampled drawing: [0.19, 0.11, 0.17, 0.15, 0.15, 0.06]
+**regression changed scenes outside the edits: PASS**
+
+cut 294: diff 46.0, neighbours [0.0, 4.3, 0.0, 15.0] ok
+cut 608: diff 56.5, neighbours [0.0, 14.2, 0.0, 5.9] ok
+cut 954: diff 62.6, neighbours [0.0, 4.7, 0.0, 5.8] ok
+cut 1314: diff 86.5, neighbours [0.0, 5.5, 0.0, 1.7] ok
+cut 1674: diff 54.1, neighbours [0.0, 1.7, 0.0, 5.0] ok
+cut 2078: diff 53.3, neighbours [0.0, 4.2, 0.0, 3.8] ok
+cut 2492: diff 70.4, neighbours [0.0, 4.0, 0.0, 13.7] ok
+cut 2646: diff 40.7, neighbours [0.0, 14.0, 0.0, 7.2] ok
+cut 2982: diff 46.3, neighbours [0.0, 7.2, 0.0, 15.1] ok
+cut 3316: diff 60.8, neighbours [0.0, 11.1, 0.0, 11.4] ok
+cut 3648: diff 50.5, neighbours [0.0, 14.0, 0.0, 4.3] ok
+**cuts: PASS**
+
+ffprobe video: codec_name=h264, width=1080, height=1920, pix_fmt=yuvj420p, r_frame_rate=24/1, duration=166.833333, nb_read_frames=4004
+ffprobe audio: codec_name=aac, duration=166.881814
+**ffprobe: PASS**
+
+$ ffmpeg -i out/final.mp4 -map 0:a -c copy -f md5 -
+MD5=2632a579c1377d79222ccb4e5300ad9e
+**audio packet MD5: PASS**
+
+## Summary
+- Fix 4 scene 11 start: PASS
+- Fix 3 scene 10 walker: PASS
+- Fix 6 scene 12 runner: PASS
+- Fix 5 scene 12 birds: PASS
+- Fix 2 scene 6 swimming: PASS
+- Fix 1 scene 3 pads: PASS
+- regression untouched scenes byte-identical: PASS
+- regression changed scenes outside the edits: PASS
+- cuts: PASS
+- ffprobe: PASS
+- audio packet MD5: PASS

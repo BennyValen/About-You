@@ -1,0 +1,38 @@
+C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\ASUS\.cache\huggingface\hub. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\ASUS\.cache\huggingface\hub\models--Systran--faster-whisper-medium. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+detected language: en 0.436 [('en', 0.43645939230918884), ('la', 0.2215127944946289), ('jw', 0.13408063352108002), ('haw', 0.06445221602916718), ('nn', 0.025545408949255943)]
+transcribe [  49.65 -   55.04] No place
+transcribe [  55.04 -   57.04] Somewhere I go
+transcribe [  57.04 -   59.04] When I need to remember
+transcribe [  59.04 -   61.04] Your face
+transcribe [  61.04 -   64.96] We get married
+transcribe [  64.96 -   69.58] In our house
+transcribe [  69.58 -   75.97] They'll do
+transcribe [  75.97 -   77.97] When we try to recall
+transcribe [  77.97 -   79.97] How we met
+transcribe [  79.97 -   85.94] Do you think
+transcribe [  85.94 -   87.94] I have forgotten
+transcribe [  87.94 -   89.94] Do you think
+transcribe [  89.94 -   91.94] I have forgotten
+transcribe [  91.94 -   93.94] Do you think
+transcribe [  93.94 -  101.97] Don't think I have the concern about you
+translate [  49.65 -   55.04] No place
+translate [  55.04 -   57.04] Somewhere I go
+translate [  57.04 -   59.04] When I need to remember
+translate [  59.04 -   61.04] Your face
+translate [  61.04 -   64.96] We get married
+translate [  64.96 -   69.58] In our house
+translate [  69.58 -   75.97] They do
+translate [  75.97 -   77.97] While you try to recall
+translate [  77.97 -   79.97] How we met
+translate [  79.97 -   85.94] Do you think
+translate [  85.94 -   87.94] I have forgotten
+translate [  87.94 -   89.94] Do you think
+translate [  89.94 -   91.94] I have forgotten
+translate [  91.94 -   93.94] Do you think
+translate [  93.94 -  101.97] Don't think I have the concern about you
